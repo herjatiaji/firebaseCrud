@@ -11,53 +11,48 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/name_edittext"
-        android:hint="insert name"/>
+        android:id="@+id/uniname_edittext"
+        android:hint="add university name"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/address_edittext"
-        android:hint="insert your address"/>
+        android:id="@+id/uniaddress_edittext"
+        android:hint="add university address"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="INSERT"
-        android:id="@+id/insert_btn"/>
+        android:text="ADD"
+        android:id="@+id/uniinsert_btn"/>
     <Button
         android:layout_marginTop="13dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="READ LATEST DATA"
-        android:id="@+id/read_data_btn"/>
+        android:id="@+id/read_data2_btn"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/update_name"
-        android:hint="Update Name"
+        android:id="@+id/update_uniname"
+        android:hint="Update university name"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/update_address"
-        android:hint="Update Address"
+        android:id="@+id/update_uniaddress"
+        android:hint="Update university address"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="UPDATE DATA"
-        android:id="@+id/update_btn"/>
+        android:id="@+id/update_btn2"/>
     <Button
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DELETE DATA"
-        android:id="@+id/delete_btn"/>
-    <Button
-        android:layout_marginTop="15dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Next"
-        android:id="@+id/next_btn"/>
+        android:id="@+id/delete_btn2"/>
+
 
 </LinearLayout>
